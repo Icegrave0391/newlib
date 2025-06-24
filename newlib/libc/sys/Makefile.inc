@@ -25,6 +25,9 @@ endif
 if HAVE_LIBC_SYS_MMIXWARE_DIR
 include %D%/mmixware/Makefile.inc
 endif
+if HAVE_LIBC_SYS_LITEBOX_DIR
+include %D%/litebox/Makefile.inc
+endif
 if HAVE_LIBC_SYS_NETWARE_DIR
 include %D%/netware/Makefile.inc
 endif
