@@ -589,6 +589,8 @@ case "${host}" in
   w65-*-*)
 	sys_dir=w65
 	;;
+  x86_64-*-litebox*)
+	;;
   z8k-*-coff)
 	sys_dir=z8ksim
 	;;

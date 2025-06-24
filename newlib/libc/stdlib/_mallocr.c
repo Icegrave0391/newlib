@@ -2603,7 +2603,7 @@ Void_t* mALLOc(RARG bytes) RDECL size_t bytes;
 }
 
 #endif /* DEFINE_MALLOC */
-
+
 #ifdef DEFINE_FREE
 
 /*
