@@ -590,6 +590,7 @@ case "${host}" in
 	sys_dir=w65
 	;;
   x86_64-*-litebox*)
+    newlib_cflags="${newlib_cflags}"
 	have_crt0=yes
 	unix_dir=
 	posix_dir=
